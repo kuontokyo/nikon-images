@@ -1,0 +1,22 @@
+<!doctype html><meta charset="utf-8"><title>Nikon CMS Preview</title>
+<style>body{font-family:-apple-system,Segoe UI,Helvetica,Arial;padding:16px}h2{margin:18px 0 6px}img{max-width:420px;height:auto;display:block;margin:6px 0;border:1px solid #eee;border-radius:8px;padding:4px}</style>
+<h1>Nikon CMS | Body-only (product_XX.jpg)</h1>
+
+<h2>Z8</h2>
+<!-- 1〜12 -->
+<script>
+const z8=[...Array(12)].map((_,i)=>String(i+1).padStart(2,'0'));
+document.write(z8.map(n=>`<div>#${n}: https://nij.nikon.com/cms/products/mirrorless/lineup/z_8/img/index/product_${n}.jpg<br><img src="https://nij.nikon.com/cms/products/mirrorless/lineup/z_8/img/index/product_${n}.jpg"></div>`).join(''));
+</script>
+
+<h2>Z6III</h2>
+<script>
+const z63=[...Array(12)].map((_,i)=>String(i+1).padStart(2,'0'));
+document.write(z63.map(n=>`<div>#${n}: https://nij.nikon.com/cms/products/mirrorless/lineup/z6_3/img/index/product_${n}.jpg<br><img src="https://nij.nikon.com/cms/products/mirrorless/lineup/z6_3/img/index/product_${n}.jpg"></div>`).join(''));
+</script>
+
+<h2>D850</h2>
+<script>
+const d850=[...Array(12)].map((_,i)=>String(i+1).padStart(2,'0'));
+document.write(d850.map(n=>`<div>#${n}: https://nij.nikon.com/cms/products/slr/lineup/d850/img/index/product_${n}.jpg<br><img src="https://nij.nikon.com/cms/products/slr/lineup/d850/img/index/product_${n}.jpg"></div>`).join(''));
+</script>
